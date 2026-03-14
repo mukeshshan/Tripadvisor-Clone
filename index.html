@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <div class="nav">
+        <div class="nav-1">
+            <img class="nav-logo" src="./images/./logo.png">
+            <h1 class="nav-name">Tripadvisor</h1>
+        </div>
+        <div class="nav-2">
+            <p class="nav-sign">Sign in</p>
+        </div>
+    </div>
+    <!--Header-->
+    <div class="header">
+        <h1 class="header-text">Where to?</h1>
+        <div class="categories">
+            <div class="c-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-house-door" viewBox="0 0 16 16">
+                    <path
+                        d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z" />
+                </svg>
+                <h2>Search All</h2>
+            </div>
+            <div class="c-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-buildings" viewBox="0 0 16 16">
+                    <path
+                        d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z" />
+                    <path
+                        d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z" />
+                </svg>
+                <h2>Hotels</h2>
+            </div>
+            <div class="c-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-camera"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z" />
+                    <path
+                        d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                </svg>
+                <h2>Things to Do</h2>
+            </div>
+            <div class="c-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-fork-knife" viewBox="0 0 16 16">
+                    <path
+                        d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
+                </svg>
+                <h2>Restaurants</h2>
+            </div>
+        </div>
+    </div>
+    <div class="header-search">
+        <div class="header-enter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>
+            <input class="header-enter-1" placeholder="Places to Go, things to do,hotels...">
+            <p class="header-search-btn">Search</p>
+        </div>
+    </div>
+    </div>
+    <!--banner-->
+    <div class="banner">
+    <div class="banner-1">
+        <img class="banner-img" src="./images/banner-img.jpg">
+        <h1>Book traveller-backed things to do</h1>
+    </div>
+    </div>
+    <!--Explore experiences-->
+    <div class="explore">
+        <h1 class="explore__title">Explore experiences</h1>
+        <p>Can’t-miss</p>
+        <div class="explore__container">
+            <div class="explore-card">
+                <img src="./images/p1.jpg">
+                <p>Best Seller</p>
+                <h3> Singapore River Cruise, Night Garden Rhapsody & Spectra by CYT</h3>
+                <p>4.9⭐⭐⭐⭐ (367)</p>
+                <p>from S$70 per adult</p>
+            </div>
+            <div class="explore-card">
+                <img src="./images/p2.jpg">
+                <h3> Small Group: Michelin and Local Hawker Food Tour with 9 tastings</h3>
+                <p>4.9⭐⭐⭐⭐⭐ (1,959)</p>
+                <p>from S$109 per adult</p>
+            </div>
+            <div class="explore-card">
+                <img src="./images/p3.jpg">
+                <h3>Singapore: Marina Bay Sands SkyPark Observation Deck E-Ticket</h3>
+                <p>4.9⭐⭐⭐⭐⭐ (97)</p>
+                <p>from S$35 per adult</p>
+            </div>
+            <div class="explore-card">
+                <img src="./images/p4.jpg">
+                <p>Must Try</p>
+                <h3> Morning Half Day Cruise from Providenciales with Snorkeling and Iguana Island</h3>
+                <p>4.9⭐⭐⭐⭐⭐ (897)</p>
+                <p>from S$209 per adult</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="foot-1">
+        <p>About Us</p>
+        <p>Explore</p>
+        <p>Terms of Use</p>
+        <p>Follow Us</p>
+        <p>Contact Us</p>
+    </div>
+    <div class="foot-2">
+        <p>&copy 2026 Tripadvisor.com</p>
+</body>
+
+</html>

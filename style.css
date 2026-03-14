@@ -1,0 +1,236 @@
+.{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  background-color: white;
+  border-bottom: 1px solid black;
+    position: sticky;
+  top: 0;
+}
+.nav-logo{
+  width: 50px;
+  height: 5%;
+}
+.nav-name{
+  font-size: 50px;
+  font-weight: bold;
+}
+.nav-1{
+   display: flex;
+  align-items: center;
+   cursor: pointer;
+}
+
+.nav-2{
+  padding: 10px;
+}
+.nav-sign{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.nav-sign:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.header{
+  
+}
+.header-text{
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-enter{
+  border: solid black 1px;
+    border-radius: 50px; 
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+.header-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-enter-1{
+  width: 100%;
+  height: 30px;
+  border: none;
+}
+.header-enter-1:focus{
+    outline: none;
+}
+.header-search-btn{
+ background-color: green;
+  color: white;
+  padding:8px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.header-search-btn:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.categories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-1,.c-2,.c-3,.c-4{
+  padding: 10px;
+  margin-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.c-1{
+  border-bottom: 2px solid black;
+}
+.c-2:hover,.c-3:hover,.c-4:hover{
+  border-bottom: 2px solid black;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.banner-1{
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  width: 800px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+
+}
+.banner-img{
+  width: 300px;
+  height: 280px;
+  padding: 10px;
+  border-right: 3px solid;
+  margin-right: 10px;
+}
+.explore__container{
+ margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 10px;
+}
+.explore-card{
+    width: 400px;
+}
+
+.explore-card img{
+width: 100%;
+height: 60%;
+}
+.explore__container p{
+    margin: 0px;
+    padding: 1px;
+}
+.explore__container p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.explore__container h3:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot-1{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.foot-1 p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.foot-2{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.foot-2 p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media (max-width:600px){
+.categories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.banner-1{
+  background-color: green;
+  color: white;
+  font-size: 20px;
+}
+.banner-img{
+  width: 200px;
+  height: 180px;
+  padding: 10px;
+  border-right: 3px solid;
+  margin-right: 10px;
+}
+}
